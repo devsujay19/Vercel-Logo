@@ -1,0 +1,51 @@
+body {
+  background: #000000;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-container {
+  margin-top: 10pc;
+  margin-left: 2.5pc;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 135px solid transparent;
+  border-right: 135px solid transparent;
+  border-bottom: 215px solid white;
+}
+
+.text-logo {
+  font-size: 200px;
+  color: white;
+  font-family: Quicksand;
+  font-weight: bolder;
+  display: inline;
+  position: absolute;
+  left: 270px;
+  bottom: 300px;
+}
+
+.quote {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 5pc;
+  text-indent: -4pc;
+  font-family: PT Sans;
+}
+
+span {
+  background: linear-gradient(20deg, red, pink, coral);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
